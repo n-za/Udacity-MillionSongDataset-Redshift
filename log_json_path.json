@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS staging_events(
+    artist varchar(max),
+    auth varchar(max),
+    firstName varchar(max),
+    gender char(1),
+    itemInSession numeric(4,0),
+    lastName varchar(max),
+    length varchar(max),
+    level varchar(max),
+    location varchar(max),
+    method varchar(max),
+    page varchar(max),
+    registration double precision,
+    sessionId numeric(20,0),
+    song varchar(max),
+    status numeric(4,0),
+    ts numeric(20,0),
+    userAgent varchar(max),
+    userId varchar(max)
+)
